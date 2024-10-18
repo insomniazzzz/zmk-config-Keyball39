@@ -34,8 +34,8 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-esc$$', h: number}
-  - {t: '$$mdi:keyboard-space$$', h: function}
-  - {t: '$$mdi:keyboard-tab$$', h: scroll}
+  - {t: '$$mdi:keyboard-tab$$', h: function}
+  - {t: '$$mdi:keyboard-space$$', h: scroll}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: symbol}
   - $$mdi:apple-keyboard-shift$$
