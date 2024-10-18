@@ -44,7 +44,7 @@ layers:
   - '2'
   - '3'
   - '4'
-  - '5'
+  - HOME
   - 'Alt+ :'
   - '7'
   - '8'
@@ -54,7 +54,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - END
   - KP DOT
   - '4'
   - '5'
