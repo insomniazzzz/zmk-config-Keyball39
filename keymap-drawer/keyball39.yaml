@@ -45,7 +45,7 @@ layers:
   - F11
   - F12
   - HOME
-  - KP COMMA
+  - {t: ',', s: <}
   - '7'
   - '8'
   - '9'
