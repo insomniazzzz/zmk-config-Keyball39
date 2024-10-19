@@ -65,10 +65,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp HOME                  &kp LA(COLON)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
-&kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT     &kp END                   &kp KP_DOT     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS
-&none         &none         &none         &none         &none                     &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
-&kp RSHIFT    &trans        &trans        &trans        &trans    &trans  &trans  &trans                                                   &kp SLASH
+&kp F9      &kp F10  &kp F11  &kp F12  &kp HOME                     &kp LA(COLON)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
+&kp F5      &kp F6   &kp F7   &kp F8   &kp END                      &kp KP_DOT     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS
+&kp F1      &kp F2   &kp F3   &kp F4   &none                        &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
+&kp RSHIFT  &trans   &trans   &trans   &trans    &trans  &kp ENTER  &kp BACKSPACE                                            &kp SLASH
             >;
         };
 
