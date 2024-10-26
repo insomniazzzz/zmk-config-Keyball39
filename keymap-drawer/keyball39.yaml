@@ -35,9 +35,9 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-esc$$', h: number}
   - {t: '$$mdi:keyboard-tab$$', h: function}
-  - {t: '$$mdi:keyboard-space$$', h: scroll}
+  - {t: '$$mdi:keyboard-space$$', h: symbol}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', h: symbol}
+  - {t: '$$mdi:backspace$$', h: scroll}
   - $$mdi:apple-keyboard-shift$$
   number:
   - F9
@@ -115,9 +115,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '?'
   function:
   - F1
@@ -200,11 +200,11 @@ layers:
   - function
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   scroll:
-  - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - HOME
   - END
   - {t: '$$mdi:transfer$$', type: trans}
@@ -230,14 +230,14 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
+  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   snipe:
   - {t: '$$mdi:transfer$$', type: trans}
