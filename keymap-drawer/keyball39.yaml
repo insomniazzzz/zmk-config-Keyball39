@@ -222,7 +222,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Meh+ 2
   - Ctl+ F1
-  - Ctl+ 3
+  - Ctl+ F3
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PG DN
