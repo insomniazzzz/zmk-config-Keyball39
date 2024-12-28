@@ -207,9 +207,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+$$mdi:arrow-left-bold$$
   - Gui+$$mdi:arrow-right-bold$$
-  - Ctl+F3
-  - Ctl+F4
-  - Ctl+F5
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
