@@ -12,10 +12,11 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -109,10 +110,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&kp N1          &kp N2          &kp N3        &kp N4     &kp N5                  &kp LS(LA(LC(NUMBER_2)))  &kp LC(F1)  &kp LC(F3)  &kp LC(F4)  &kp LC(F5)
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none                   &kp PAGE_UP               &mkp LCLK   &mkp RCLK   &mkp MCLK   &none
-&none           &none           &none         &none      &none                   &kp PAGE_DOWN             &none       &none       &none       &none
-&none           &trans          &trans        &trans     &trans  &trans  &trans  &mo 3                                                         &none
+&kp N1          &kp N2          &kp N3        &kp N4     &kp N5                  &kp LS(LA(LC(NUMBER_2)))  &kp LC(F1)   &kp LC(F3)  &kp LC(F4)  &kp LC(F5)
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none                   &kp PAGE_UP               &mkp LCLK    &mkp RCLK   &mkp MCLK   &none
+&none           &none           &none         &none      &none                   &kp PAGE_DOWN             &kp LG(TAB)  &none       &none       &none
+&none           &trans          &trans        &trans     &trans  &trans  &trans  &mo 3                                                          &none
             >;
         };
 
@@ -131,7 +132,7 @@
             bindings = <
 &bt BT_SEL 0              &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &kp LC(LS(NUMBER_2))  &kp LS(LC(NUMBER_3))  &kp LS(LC(NUMBER_4))  &kp LS(LC(N5))  &trans
 &trans                    &trans        &trans        &trans        &trans                        &trans                &trans                &trans                &trans          &trans
-&kp LC(LA(LS(NUMBER_2)))  &kp LC(F1)    &kp LC(F3)    &kp LC(F4)    &kp LC(F5)                    &kp LC(LS(N))         &trans                &trans                &trans          &trans
+&kp LC(LA(LS(NUMBER_2)))  &kp LC(F1)    &kp LC(F3)    &kp LC(F4)    &kp LC(F5)                    &kp LC(LS(N))         &kp LG(LEFT)          &kp LG(UP_ARROW)      &kp LG(DOWN)    &kp RIGHT
 &trans                    &trans        &trans        &trans        &trans        &trans  &trans  &kp DELETE                                                                        &trans
             >;
         };
