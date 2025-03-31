@@ -5,15 +5,14 @@
 / {
     chosen {
         zephyr,display = &oled;
-	zmk,physical-layout = &physical_layout0;
+	zmk,physical-layout = &roba_physical_layout;
     };
 
-    physical_layout0: physical_layout_0 {
+   roba_physical_layout: roba_physical_layout {
         compatible = "zmk,physical-layout";
-        display-name = "default_layout";
-
+        display-name = "Default";
+        transform = <&default_transform>;
         kscan = <&kscan0>;
-        transform = <&matrix_transform0>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   38       0     0     0>
